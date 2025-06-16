@@ -21,6 +21,7 @@ public class Main {
                 sb.append("0 ");
             }
         }
+        sb.deleteCharAt(sb.length() - 1);
         System.out.println(sb.toString().trim());
     }
 }
